@@ -6,10 +6,17 @@
 - clean: ['~']
 
 - link:
-    ~/.zshrc: zshrc
+    ~/.gitconfig:
+    ~/.zshrc:
 
 - create:
     - ~/WORK
 
-#- shell:
-#  - [git submodule update --init --recursive, Installing submodules]
+- shell:
+#   - [git submodule update --init --recursive, Installing submodules]
+    - echo "heyyyyyy"
+    - sleep 2
+    -
+      command: ./test.zsh
+      stdout: true
+      stderr: true
