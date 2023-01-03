@@ -6,10 +6,7 @@
 - clean: ['~']
 
 - link:
-    ~/.bashrc: bashrc
-#    ~/.tmux.conf: tmux.conf
-#    ~/.vim: vim
-#    ~/.vimrc: vimrc
+    ~/.zshrc: zshrc
 
 - create:
     - ~/WORK
