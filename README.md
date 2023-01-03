@@ -12,3 +12,4 @@ Still learning dotfiles atm.
 ## If MacOs
 - Dock Preferences
 - Mission Control Preferences (don't rearrange spaces)
+- Homebrew installation
