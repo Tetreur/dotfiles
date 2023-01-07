@@ -38,10 +38,5 @@ function mkcd() {# shellcheck disable=SC2034
 
 # .. and other surpises ..
 
-# added by Nix installer
-if [ -e /home/bastien/.nix-profile/etc/profile.d/nix.sh ]; then
-	. /home/bastien/.nix-profile/etc/profile.d/nix.sh; 
-fi
-
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
-source "/home/bastien/.rvm/scripts/rvm"
+export PATH="$PATH:/home/bastien/.rvm/scripts/rvm"
