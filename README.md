@@ -13,3 +13,6 @@ Still learning dotfiles atm.
 - Dock Preferences
 - Mission Control Preferences (don't rearrange spaces)
 - Homebrew installation
+
+## If Linux
+- apt
