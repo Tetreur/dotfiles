@@ -11,8 +11,8 @@ export HOMEBREW_CASK_OPTS="--no-quarantine"
 
 # Create Aliases
 # EXA > LS
-alias ls='exa --icons --no-permissions --no-time --no-user -Gx -s extension --group-directories-first'
-alias lsa='exa --icons --no-permissions --no-time --no-user -aGx -s extension --group-directories-first'
+alias ls='exa -laFh --icons -s extension --group-directories-first'
+alias exa='exa -laFh'
 
 # CLEAR
 alias c='clear'
