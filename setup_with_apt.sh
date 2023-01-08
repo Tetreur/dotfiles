@@ -1,6 +1,12 @@
 #!/bin/bash
 
 sudo apt install -y httpie
+sudo apt install -y git
+
+wget https://release.gitkraken.com/linux/gitkraken-amd64.deb)
+sudo dpkg -i gitkraken-amd64.deb
+rm -f gitkraken-amd64.deb
+
 sudo apt install -y bat
 sudo apt install -y code
 sudo apt install -y nautilus-dropbox
