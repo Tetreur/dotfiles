@@ -17,6 +17,8 @@
     - echo "heyyyyyy"
     - sleep 2
     -
-      command: ./test.zsh
+        command: ./setup_with_homebrew.zsh
+        stdout: true
+        stderr: true
       stdout: true
       stderr: true
