@@ -1,8 +1,10 @@
 #!/bin/bash
 
-sudo apt install httpie
-sudo apt install bat
-sudo apt install code
+sudo apt install -y httpie
+sudo apt install -y bat
+sudo apt install -y code
+sudo apt install -y nautilus-dropbox
+sudo apt install -y dolphin-plugins
 
 printf "\n<<< setup ZSH >>>\n\n"
 sudo apt install zsh
