@@ -13,12 +13,11 @@
     - ~/WORK
 
 - shell:
-#   - [git submodule update --init --recursive, Installing submodules]
-    - echo "heyyyyyy"
-    - sleep 2
     -
         command: ./setup_with_homebrew.zsh
         stdout: true
         stderr: true
-      stdout: true
-      stderr: true
+    -
+        command: ./setup_with_apt.sh
+        stdout: true
+        stderr: true
