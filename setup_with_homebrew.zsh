@@ -7,8 +7,9 @@ printf "\n<<< Starting Homebrew setup >>>\n\n"
 # brew install httpie
 # brew install bat
 
-# brew cask install google-chrome
-# brew cask install firefox
-# brew cask install visual-studio-code
+# brew cask install --no-quarantine google-chrome
+# brew cask install --no-quarantine firefox
+# brew cask install --no-quarantine visual-studio-code
+# brew cask install --no-quarantine alfred
 
 printf "\n<<< Homebrew setup finished >>>\n\n"
